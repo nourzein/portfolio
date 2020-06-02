@@ -7,7 +7,6 @@ body {
   margin: 0;
   background-color: #fafafa;
   font-family: "Roboto", sans-serif;
-
   /* font-family: "Esteban", serif;
   font-family: proxima-nova, sans-serif; */
 }
@@ -26,10 +25,9 @@ body {
 
 #name {
   /* font-family: "open sans", serif; */
-  /* font-family: "Tangerine", cursive; */
-  font-family: "Josefin Sans", sans-serif;
-  /* font-weight: 300; */
-  font-size: 24px;
+  font-family: "Tangerine", cursive;
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-size: 34px;
   margin-left: 0px;
 }
 a {
@@ -52,10 +50,11 @@ a {
   margin: 40px;
   margin-bottom: 0px;
   margin-right: 0;
-  font-size: 20px;
 }
 .link {
   float: right;
+  font-weight: 100;
+  font-size: 17px;
 }
 #work {
   text-decoration: underline;
@@ -67,7 +66,6 @@ a {
 h4 {
   width: 640px;
   line-height: 1.5;
-  font-family: "IBM Plex Sans", sans-serif;
   /* margin-bottom: 50px; */
 }
 
