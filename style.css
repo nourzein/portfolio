@@ -18,37 +18,52 @@ body {
   margin: 0px auto; /*auto sizing centers */
   margin-bottom: 15px;
 }
+#nav-bar {
+  margin-bottom: 40px;
+  margin-top: 50px;
+  /* border: 1px solid black; */
+}
 
-h1 {
-  /* font-family: "IBM Plex Serif", serif; */
+#name {
+  /* font-family: "open sans", serif; */
   /* font-family: "Tangerine", cursive; */
-  /* font-family: "Josefin Sans", sans-serif; */
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
-  font-size: 5.5rem;
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 0px;
+  /* font-weight: 300; */
+  font-size: 24px;
+  margin-left: 0px;
 }
 a {
   text-decoration: none;
   color: black;
 }
 .pages {
-  text-align: center;
-  margin-bottom: 50px;
+  /* text-align: left; */
+
+  /* margin-bottom: 30px; */
+  /* position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  text-align: left; */
 }
 .page {
   display: inline-block;
-  margin: 20px;
+  margin: 40px;
+  margin-bottom: 0px;
+  margin-right: 0;
   font-size: 20px;
+}
+.link {
+  float: right;
+}
+#work {
+  text-decoration: underline;
 }
 .page:hover {
   text-decoration: underline;
 }
-#nav-bar {
-  margin-bottom: 80px;
-}
+
 h4 {
   width: 640px;
   line-height: 1.5;
