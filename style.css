@@ -26,7 +26,8 @@ body {
 #name {
   /* font-family: "open sans", serif; */
   /* font-family: "Tangerine", cursive; */
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display SC", serif;
+  /* font-family: "Josefin Sans", sans-serif; */
   font-size: 34px;
   margin-left: 0px;
 }
