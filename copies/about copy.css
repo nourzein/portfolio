@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+
+  /* font-family: "Esteban", serif;
+    font-family: proxima-nova, sans-serif; */
+}
+
+#container {
+  width: 75%;
+  max-width: 2000px;
+  margin: 0px auto; /*auto sizing centers */
+  margin-bottom: 15px;
+  border: 5px solid black;
+}
+
+h1 {
+  /* font-family: "IBM Plex Serif", serif; */
+  /* font-family: "Tangerine", cursive; */
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 5.5rem;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.pages {
+  text-align: center;
+  margin-bottom: 50px;
+  /* position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    text-align: left; */
+}
+.page {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+}
+#about {
+  text-decoration: underline;
+}
+.page:hover {
+  text-decoration: underline;
+}
+#nav-bar {
+  margin-bottom: 80px;
+}
+h4 {
+  width: 640px;
+  line-height: 1.5;
+  font-family: "IBM Plex Sans", sans-serif;
+  /* margin-bottom: 50px; */
+}
