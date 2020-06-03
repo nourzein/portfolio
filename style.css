@@ -18,22 +18,26 @@ body {
   margin-bottom: 15px;
 }
 #nav-bar {
-  margin-bottom: 40px;
-  margin-top: 50px;
-  /* border: 1px solid black; */
+  margin-bottom: 100px;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #name {
-  /* font-family: "open sans", serif; */
+  /* font-family: "helvetica", serif; */
   /* font-family: "Tangerine", cursive; */
-  font-family: "Playfair Display SC", serif;
+  /* font-family: "Playfair Display SC", serif; */
   /* font-family: "Josefin Sans", sans-serif; */
-  font-size: 34px;
+  font-size: 40px;
   margin-left: 0px;
 }
 a {
   text-decoration: none;
   color: black;
+  margin-bottom: 0px;
 }
 .pages {
   /* text-align: left; */
@@ -54,13 +58,16 @@ a {
 }
 .link {
   float: right;
-  /* font-weight: 100;
-  font-size: 17px; */
+  font-weight: 100;
+  margin-bottom: 0px;
+  margin-top: 70px;
+
+  /* font-size: 17px; */
 }
 #work {
   text-decoration: underline;
 }
-.page:hover {
+.link:hover {
   text-decoration: underline;
 }
 
