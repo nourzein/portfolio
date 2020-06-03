@@ -6,7 +6,8 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fafafa;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Raleway", sans-serif;
   /* font-family: "Esteban", serif;
   font-family: proxima-nova, sans-serif; */
 }
@@ -31,7 +32,8 @@ body {
   /* font-family: "Tangerine", cursive; */
   /* font-family: "Playfair Display SC", serif; */
   /* font-family: "Josefin Sans", sans-serif; */
-  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 39px;
   margin-left: 0px;
 }
 a {
@@ -61,7 +63,7 @@ a {
   font-weight: 100;
   margin-bottom: 0px;
   margin-top: 70px;
-
+  font-size: 19px;
   /* font-size: 17px; */
 }
 #work {
