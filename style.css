@@ -33,6 +33,7 @@ body {
   /* font-family: "Playfair Display SC", serif; */
   /* font-family: "Josefin Sans", sans-serif; */
   font-family: "Raleway", sans-serif;
+  font-weight: 200;
   font-size: 39px;
   margin-left: 0px;
 }
@@ -67,16 +68,10 @@ a {
   /* font-size: 17px; */
 }
 #work {
-  text-decoration: underline;
+  font-weight: bold;
 }
 .link:hover {
-  text-decoration: underline;
-}
-
-h4 {
-  width: 640px;
-  line-height: 1.5;
-  /* margin-bottom: 50px; */
+  font-weight: bold;
 }
 
 .projects {
@@ -138,17 +133,17 @@ img {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
 }
 .project:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
 }
-
 .content-details p {
-  color: white;
-  font-size: 23px;
-  font-weight: 100;
+  /* border-bottom: 1px solid white; */
 }
 .tool {
   font-size: 0.8rem;
