@@ -70,51 +70,63 @@
       <div id="small-container">
         <section class="intro">
           <div class="title-box">
-            <h1 class="title">Alcoholics Anonymous Meeting Finder</h1>
+            <h1 class="title">Earthquake Radar</h1>
             <p class="tools">
-              <strong>Tools:</strong>
-              HTML/CSS/Javascript/JQuery/Mapbox/Leaflet/Node/PostgreSQL
+              <strong>Tools:</strong> HTML/CSS/Javascript/Leaflet/Mapbox/P5
             </p>
-            <p class="description">
-              <span class="process-items">Description:</span> AA Meeting Finder
-              is an interactive map application built from data scrapped from
-              the web. It allows you to locate AA meetings in Mahattan based on
-              schedule.
-              <!-- <a
-                href="https://github.com/nourzein/Data_Structures/tree/master/final_assignments"
-                ><span class="highlight"><u>repository</u></span></a
-              >
-              or watch the <a href="https://vimeo.com/379468386"><u>video</u></a
-              >. -->
-              <br /><br /><span class="process-items">Goal:</span> An
-              application that helps users navigate the AA meetings around
-              Manhattan effectively. This was part of the Data Structures course
-              at Parsons. <br />
-              <br /><span class="process-items">Data:</span> Alcoholic Anonymous
-              of NYC static webpages. <br /><br /><span class="process-items"
-                >Data Collection:</span
-              >
-              Starting with the static webpages, I used the developer tools
-              inspector to figure out a page's elements breakdown. Then I used
-              <i>node</i>, <i>cheerio</i>, and <i>async</i> to parse out the
-              data from the html pages and save them into JSON files (example:
-              addresses of all meetings in one file). I used TAMU geolocation
-              API to find the latitude and logitute of the meeting addresses. I
-              used relational database PostGres to organize the data into
-              relational tables that I would then use <i>express</i> to call to
-              the front-end. <br /><br />
-              <span class="process-items">Audience:</span> Parsons Data
-              Structures Course. <br /><br />
-              <span id="more-info"
-                ><strong
-                  >For detailed documentation, please click
-                  <a
-                    href="https://github.com/nourzein/Data_Structures/tree/master/final_assignments"
-                    ><span class="highlight">here</span></a
-                  ></strong
-                ></span
-              >
-            </p>
+            <div class="description">
+              <p class="item">
+                <span class="process-items">Description:</span> A data
+                visualization exploring color use evolution with artistic
+                movements in pre-modern art Europe.
+              </p>
+
+              <p class="item">
+                <span class="process-items">Goal:</span> If an earthquake
+                happens but there is no one around to feel it, did it really
+                happen? In this project, I visualize the potential impact of the
+                significant earthquakes by exploring the cities that are
+                affected by more than one significant earthquake.
+              </p>
+              <p class="item">
+                <span class="process-items">Data:</span> USGS Latest Earthquakes
+              </p>
+
+              <p class="item">
+                <span class="process-items">Data Collection:</span>
+                I used the USGS color scheme for this project, utilizing red,
+                green, and black to make my radar narrative effective. The base
+                layer with population density was designed in Mapbox. I imported
+                this base layer and using leaflet, I added the USGS earthquake
+                data from October. While the map shows the earthquake
+                distribution, using canvas and P5, I created the “radar” that
+                communicated with the map and provided contextual information
+                about all the earthquakes relative to the city closest to the
+                earthquake hovered on.
+              </p>
+              <p class="item">
+                <span class="process-items">Audience:</span> Data Visualization
+                and Information Aesthetics classmates.
+              </p>
+              <p class="item">
+                <span id="more-info"
+                  ><strong
+                    >For the live project, please click
+                    <a
+                      href="https://nourzein.github.io/dvia-2019/3.mapping-space/Concept1/"
+                    >
+                      <span class="highlight">here</span>.</a
+                    >
+                    For detailed documentation, please click
+                    <a
+                      href="https://github.com/nourzein/dvia-2019/tree/master/3.mapping-space/process
+                    "
+                      ><span class="highlight">here</span>.</a
+                    ></strong
+                  ></span
+                >
+              </p>
+            </div>
             <!-- <div class="project-links">
               <a href="https://vimeo.com/379468386" class="project-link">
                 Project Video</a
@@ -124,16 +136,14 @@
             </div> -->
           </div>
           <div class="project-image">
-            <a href="https://vimeo.com/379468386">
-              <img src="../images/AA_meeting/aa.gif" width="100%" />
-              <!-- <iframe
+            <img src="../images/earthquake/earthquake_radar.gif" width="100%" />
+            <!-- <iframe
               src="https://player.vimeo.com/video/379468386"
               frameborder="0"
               width="100% auto"
               allow="autoplay; fullscreen"
               allowfullscreen
             ></iframe> -->
-            </a>
           </div>
         </section>
 

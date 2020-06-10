@@ -70,51 +70,67 @@
       <div id="small-container">
         <section class="intro">
           <div class="title-box">
-            <h1 class="title">Alcoholics Anonymous Meeting Finder</h1>
+            <h1 class="title">Greening From the Rooftops</h1>
             <p class="tools">
               <strong>Tools:</strong>
-              HTML/CSS/Javascript/JQuery/Mapbox/Leaflet/Node/PostgreSQL
+              HTML/CSS/Javascript/D3/MongoDB/Node/Mapbox/PostgreSQL/Illustrator
             </p>
-            <p class="description">
-              <span class="process-items">Description:</span> AA Meeting Finder
-              is an interactive map application built from data scrapped from
-              the web. It allows you to locate AA meetings in Mahattan based on
-              schedule.
-              <!-- <a
-                href="https://github.com/nourzein/Data_Structures/tree/master/final_assignments"
-                ><span class="highlight"><u>repository</u></span></a
-              >
-              or watch the <a href="https://vimeo.com/379468386"><u>video</u></a
-              >. -->
-              <br /><br /><span class="process-items">Goal:</span> An
-              application that helps users navigate the AA meetings around
-              Manhattan effectively. This was part of the Data Structures course
-              at Parsons. <br />
-              <br /><span class="process-items">Data:</span> Alcoholic Anonymous
-              of NYC static webpages. <br /><br /><span class="process-items"
-                >Data Collection:</span
-              >
-              Starting with the static webpages, I used the developer tools
-              inspector to figure out a page's elements breakdown. Then I used
-              <i>node</i>, <i>cheerio</i>, and <i>async</i> to parse out the
-              data from the html pages and save them into JSON files (example:
-              addresses of all meetings in one file). I used TAMU geolocation
-              API to find the latitude and logitute of the meeting addresses. I
-              used relational database PostGres to organize the data into
-              relational tables that I would then use <i>express</i> to call to
-              the front-end. <br /><br />
-              <span class="process-items">Audience:</span> Parsons Data
-              Structures Course. <br /><br />
-              <span id="more-info"
-                ><strong
-                  >For detailed documentation, please click
-                  <a
-                    href="https://github.com/nourzein/Data_Structures/tree/master/final_assignments"
-                    ><span class="highlight">here</span></a
-                  ></strong
-                ></span
-              >
-            </p>
+            <div class="description">
+              <p class="item">
+                <span class="process-items">Description:</span> A user interface
+                for mapping the green roof potential of NYC.
+              </p>
+
+              <p class="item">
+                <span class="process-items">Goal:</span> Green roofs are a
+                proven solution to the urban consequences of climate change.
+                Where are the current green roofs located, and how does the
+                potential for green roofs look like in NYC? What ecological
+                impacts would green roofs have?
+              </p>
+              <span class="process-items">Data:</span>
+              <ul class="item">
+                <li>The Nature Conservancy and Azavea Suitability Analysis</li>
+                <li>The Nature Conservancy Current Green Roofs</li>
+                <li>Open Data NYC Building Footprint</li>
+                <li>NYC Planning Pluto Tax Lot</li>
+              </ul>
+
+              <p class="item">
+                <span class="process-items">Data Collection:</span>
+                The data from The Nature Conservancy was in the form of
+                shapefiles. First, I needed to convert them into MBTiles in
+                order to upload the geometries into the map using Mapbox. Mapboc
+                was used instead of leaflet in order to enhance performance
+                spead. MongoDB was used to store nonrelational data regarding
+                the roof height, area, borough, building class, and land use
+                category. The data in Mapbox and the data in MongoDB were both
+                connected using a unique identifier. The benefits calculations
+                were done in the front end javascript. They are based on
+                calculations done in pervious studies— please see thesis for
+                further detail.
+              </p>
+              <p class="item">
+                <span class="process-items">Audience:</span> Policy makers,
+                urban planners, NGOs, and homeowners.
+              </p>
+              <p class="item">
+                <span id="more-info"
+                  ><strong
+                    >For the live project, please click
+                    <a href="https://green-roof-potential.herokuapp.com/">
+                      <span class="highlight">here</span>.</a
+                    >
+                    For detailed documentation, please click
+                    <a
+                      href="https://github.com/nourzein/thesis/blob/master/NourZeinThesis.pdf
+                    "
+                      ><span class="highlight">here</span>.</a
+                    ></strong
+                  ></span
+                >
+              </p>
+            </div>
             <!-- <div class="project-links">
               <a href="https://vimeo.com/379468386" class="project-link">
                 Project Video</a
@@ -124,16 +140,14 @@
             </div> -->
           </div>
           <div class="project-image">
-            <a href="https://vimeo.com/379468386">
-              <img src="../images/AA_meeting/aa.gif" width="100%" />
-              <!-- <iframe
+            <img src="../images/green-roof/green-roof.gif" width="100%" />
+            <!-- <iframe
               src="https://player.vimeo.com/video/379468386"
               frameborder="0"
               width="100% auto"
               allow="autoplay; fullscreen"
               allowfullscreen
             ></iframe> -->
-            </a>
           </div>
         </section>
 
