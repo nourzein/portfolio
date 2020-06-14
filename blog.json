@@ -1,0 +1,6 @@
+{
+  "Date": "06/12/202",
+  "Topic": "css",
+  "entry": "Today I learned about css grid. I learned the fundementals of 'grid-template-column' and 'grid-template-row', how that is the way to specify grid columns and rows. you can use 'grid-row-gap' to specify row gaps too (same for columns). There are implicit and explicit tracks. Implicit are the ones not specified, explicit are the ones specified. For implicit ones, you can use something like 'grid-row-auto: 200px' to give all non explicit tracks an automatic row of 200px. 'Grid-auto-flow' tells the grid where it should put items, a single column or a single row basically. I don't really know when I would use that too much. It seems more just like 'position: static'. 'auto' for size adjusts to the content in the item. 1fr just takes up 'free space'. When sizing the grid items themselves, not the tracks, you can use span to take up more 1fr."
+},
+

@@ -76,8 +76,13 @@ a {
 
 .projects {
   display: grid;
+  /* border: 10px solid yellow; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-  grid-row-gap: 2.5rem;
+  grid-row-gap: 2.5rem; */
   /* grid-auto-rows: 400px; */
   grid-column-gap: 2.5rem;
 }
