@@ -25,6 +25,10 @@ body {
   padding: 10px;
   padding-left: 0px;
   padding-right: 0px;
+  position: sticky;
+  top: 20px;
+  background: white;
+  z-index: 9;
 }
 
 #name {
