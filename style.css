@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-color: #fafafa;
   /* font-family: "Roboto", sans-serif; */
-  font-family: "Raleway", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   /* font-family: "Esteban", serif;
   font-family: proxima-nova, sans-serif; */
 }
@@ -19,14 +19,14 @@ body {
   margin-bottom: 15px;
 }
 #nav-bar {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 20px;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   padding: 10px;
   padding-left: 0px;
   padding-right: 0px;
   /* position: fixed; */
-  background: white;
+  /* background: white; */
   z-index: 9;
 }
 
@@ -34,10 +34,10 @@ body {
   /* font-family: "helvetica", serif; */
   /* font-family: "Tangerine", cursive; */
   /* font-family: "Playfair Display SC", serif; */
-  /* font-family: "Josefin Sans", sans-serif; */
-  font-family: "Raleway", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Indie Flower", cursive; */
   font-weight: 200;
-  font-size: 39px;
+  font-size: 45px;
   margin-left: 0px;
 }
 a {
