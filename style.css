@@ -7,7 +7,8 @@ body {
   margin: 0;
   background-color: #fafafa;
   /* font-family: "Roboto", sans-serif; */
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+
   /* font-family: "Esteban", serif;
   font-family: proxima-nova, sans-serif; */
 }
@@ -19,57 +20,47 @@ body {
   margin-bottom: 15px;
 }
 #nav-bar {
-  margin-bottom: 60px;
-  margin-top: 20px;
-  /* border-bottom: 1px solid black; */
-  padding: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
-  /* position: fixed; */
-  /* background: white; */
+  position: relative;
+  border-bottom: 1px solid black;
+  /* padding-bottom: 28px; */
+  margin: 90px 0 100px 0;
+  padding-bottom: 20px;
   z-index: 9;
+  text-align: left;
+  letter-spacing: 2.5px;
+
+  /* overflow: hidden; */
 }
 
 #name {
   /* font-family: "helvetica", serif; */
-  /* font-family: "Tangerine", cursive; */
   /* font-family: "Playfair Display SC", serif; */
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
+  /* font-family: "Josefin Slab", serif; */
+  /* font-family: "Cormorant Upright", serif;
+  font-family: "Bellefair", serif;
   /* font-family: "Indie Flower", cursive; */
-  font-weight: 200;
-  font-size: 45px;
-  margin-left: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
   color: black;
   margin-bottom: 0px;
 }
-.pages {
-  /* text-align: left; */
-
-  /* margin-bottom: 30px; */
-  /* position: absolute;
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
-  width: 600px;
-  text-align: left; */
-}
-.page {
-  display: inline-block;
-  margin: 40px;
-  margin-bottom: 0px;
-  margin-right: 0;
+.links {
+  position: absolute;
+  right: 0px;
+  bottom: 26px;
 }
 .link {
-  float: right;
+  /* float: left; */
+  margin-right: 30px;
   font-weight: 100;
-  margin-bottom: 0px;
-  margin-top: 66px;
-  font-size: 19px;
-  /* font-size: 17px; */
+  font-size: 15px;
 }
+
 #work {
   font-weight: bold;
 }
@@ -84,7 +75,7 @@ a {
   grid
   grid-row-gap: 20px; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(450px, auto));
   grid-row-gap: 2.5rem;
   /* grid-auto-rows: 400px; */
   grid-column-gap: 2.5rem;
@@ -141,9 +132,16 @@ img {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-  color: white;
+  color: #e0e0e0;
   font-size: 20px;
   font-weight: 100;
+}
+.title {
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-size: 16px;
+  margin-top: 0;
 }
 .project:hover .content-details {
   top: 50%;
